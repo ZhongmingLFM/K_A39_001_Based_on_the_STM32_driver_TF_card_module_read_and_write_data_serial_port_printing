@@ -33,12 +33,12 @@ If you find that the program has bugs or can be improved, please contact us
   * [pin explanation](#pin-explanation)
 - [Drive Instructions](#drive-instructions)
   * [timing](#timing)
-  * [corresponding program:](#corresponding-program-)
+  * [corresponding program](#corresponding-program)
 - [Partial code description](#partial-code-description)
   * [Wiring pin definition](#wiring-pin-definition)
     + [STM32F103C8T6+TF card module](#stm32f103c8t6-tf-card-module)
 - [Basic knowledge learning and related information download](#basic-knowledge-learning-and-related-information-download)
-- [6. Video effect display and program data acquisition](#6-video-effect-display-and-program-data-acquisition)
+- [Video effect display and program data acquisition](#video-effect-display-and-program-data-acquisition)
 - [Notice](#notice)
 - [Wiring description](#wiring-description)
   * [STM32F103C8T6](#stm32f103c8t6-1)
@@ -246,20 +246,31 @@ uint16_t SD_Read(void)
 
 
 # 基础知识学习与相关资料下载
+
 1、[STC89C52RC程序下载](https://blog.csdn.net/lfmnlxx79691557/article/details/127114912?spm=1001.2014.3001.5501)			直戳跳转
 
 2、STM32F103C8T6程序下载		
+
 (1)[串口下载](https://blog.csdn.net/lfmnlxx79691557/article/details/122862183?spm=1001.2014.3001.5501)                直戳跳转 
+
 (2)[ST-LINK下载](https://blog.csdn.net/lfmnlxx79691557/article/details/127140554?spm=1001.2014.3001.5501)             直戳跳转
+
 (3)[J-LINK下载](https://blog.csdn.net/lfmnlxx79691557/article/details/127140823?spm=1001.2014.3001.5501)              直戳跳转
+
 (4)[DAP-LINK下载](https://blog.csdn.net/lfmnlxx79691557/article/details/127141244?spm=1001.2014.3001.5501)            直戳跳转
+
 
 3、[OLED0.96程序说明](https://blog.csdn.net/lfmnlxx79691557/article/details/127208887?spm=1001.2014.3001.5501)			直戳跳转
 
+
 4、串口助手下载与使用
+
 (1)[安信可调试助手使用](https://blog.csdn.net/lfmnlxx79691557/article/details/128335660?spm=1001.2014.3001.5502) 						直戳跳转
+
 (2) [sscom33串口调试助手使用](https://blog.csdn.net/lfmnlxx79691557/article/details/128335808?spm=1001.2014.3001.5502)			直戳跳转
+
 (3)[STC-ISP串口调试助手使用](https://blog.csdn.net/lfmnlxx79691557/article/details/128335896?spm=1001.2014.3001.5502)			    直戳跳转
+
 
 # 视频效果展示与程序资料获取
 [视频连接](https://www.bilibili.com/video/BV1gz4y1a7hb/?vd_source=7933b82b52c9cbf1c7966eb9f0dbd29f)  	直戳跳转
@@ -322,7 +333,7 @@ CS | Selection signal pin
 ## timing
 
 SPI timing
-## corresponding program:
+## corresponding program
 
 ```javascript
 /**
@@ -504,7 +515,7 @@ You need to customize the pin can be changed here. If STM32 needs to customize t
 
 	(3) [STC-ISP serial debugging assistant use](https://blog.csdn.net/lfmnlxx79691557/article/details/128335896?spm=1001.2014.3001.5502) Direct link to jump
 
-# 6. Video effect display and program data acquisition
+# Video effect display and program data acquisition
 
 [Video Connection](https://www.bilibili.com/video/BV1gz4y1a7hb/?vd_source=7933b82b52c9cbf1c7966eb9f0dbd29f)  Direct link to jump
 
